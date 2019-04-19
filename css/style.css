@@ -1,6 +1,6 @@
 /* CSS Selectors */
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #2d3c49;
 }
 
@@ -11,17 +11,17 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 3px solid #7d97ad;
-  margin-bottom: 10px;
   width: 100vw;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #7d97ad;
 }
 
 a {
-  text-decoration: none;
-  color: black;
   font-size: 0.9em;
   padding-top: 48px;
   padding-bottom: 48px;
+  text-decoration: none;
+  color: black;
 }
 
 /* Class Selectors */
@@ -37,15 +37,15 @@ a {
 }
 
 .title h1 {
-  margin-bottom: 0;
   font-size: 2em;
+  margin-bottom: 0;
 }
 
 p {
-  margin-top: 0;
-  text-align: right;
   font-size: 1em;
   font-weight: bold;
+  margin-top: 0;
+  text-align: right;
 }
 
 /* Featured Work Section */
@@ -55,8 +55,8 @@ p {
 
 main.featured-work h2 {
   font-size: 1.4em;
-  text-transform: uppercase;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 /* Media Queries */
@@ -67,9 +67,9 @@ main.featured-work h2 {
   }
 
   header {
+    margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 30px;
-    margin-bottom: 30px;
   }
 
   .logo {
@@ -89,9 +89,8 @@ main.featured-work h2 {
 /* Desktop Size and Up*/
 @media screen and (min-width: 900px) {
   .container {
+    margin: auto auto 40px;
     max-width: 900px;
-    margin: auto;
-    margin-bottom: 40px;
   }
 
   .portfolio {
